@@ -16,11 +16,11 @@
             </h1>
             <div class="Bringing__header-block">
                 <ul class="Bringing__header-items">
-                    <li><a href="#">Process</a></li>
-                    <li><a href="#">Benefits</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a id="Bringing__itemOne" href="#">Process</a></li>
+                    <li><a id="Bringing__itemTwo" href="#">Benefits</a></li>
+                    <li><a id="Bringing__itemThree" href="#">Services</a></li>
+                    <li><a id="Bringing__itemFour" href="#">Portfolio</a></li>
+                    <li><a id="Bringing__itemFive" href="#">FAQ</a></li>
                 </ul>
                 <button class="Bringing__header-button">Get Started</button>
             </div>
@@ -80,7 +80,8 @@
                 </div>
                 <div class="Bringing__containerFour-items-itemTwo">
                     <h4 class="Bringing__containerFour-items-itemTwo-title">Polished designs - on time</h4>
-                    <p class="Bringing__containerFour-items-itemTwo-text">Our designers get to work to deliver your request.
+                    <p class="Bringing__containerFour-items-itemTwo-text">Our designers get to work to deliver your
+                        request.
                         Receive your design within a few days.</p>
                 </div>
             </div>
@@ -98,7 +99,6 @@
             </div>
         </div>
     </section>
-
     <main>
         <section class="OurBeautifulWorks">
             <div class="OurBeautifulWorks__column">
@@ -235,24 +235,70 @@
                 <p class="Customer__header-text">We survey all of our clients, the results of which go directly to our
                     CEO.</p>
             </div>
-            <div class="Customer__slider">
-                <div class="Customer__slider-content">
-                    <div class="Customer__slider-content-column">
-                        <img src="image/04_Customer/Gymstory.png" alt="Gymstory">
-                        <h3 class="Customer__slider-content-title">Kornix is the best digital agency i have ever seen!
-                            Highly Recommended!</h3>
-                        <p class="Customer__slider-content-desc">I recently hired <span
-                                class="Customer__slider-content-desc_bold">Ideapeel</span> for a custom web development
-                            project and couldn't be happier
-                            with the results. The team was able to bring my unique ideas to life and create a website
-                            that
-                            truly stands out.</p>
-                        <p class="Customer__slider-content-heading">Diana Loreza</p>
-                        <p class="Customer__slider-content-text">Director of <span
-                                class="Customer__slider-content-text_bold">Gymstory</span></p>
+            <div class="Customer__wrap">
+                <div class="Customer__slider">
+                    <div style="transform: translateX(-1268px)" class="Customer__slider-content">
+                        <div class="Customer__slider-content-column">
+                            <img src="image/04_Customer/Gymstory.png" alt="Gymstory">
+                            <h3 class="Customer__slider-content-title">Kornix is the best digital agency i have ever
+                                seen!
+                                Highly Recommended!</h3>
+                            <p class="Customer__slider-content-desc">I recently hired <span
+                                    class="Customer__slider-content-desc_bold">Ideapeel</span> for a custom web
+                                development
+                                project and couldn't be happier
+                                with the results. The team was able to bring my unique ideas to life and create a
+                                website
+                                that
+                                truly stands out.</p>
+                            <p class="Customer__slider-content-heading">Diana Loreza</p>
+                            <p class="Customer__slider-content-text">Director of <span
+                                    class="Customer__slider-content-text_bold">Gymstory</span></p>
+                        </div>
+                        <img class="Customer__slider-content-img" src="image/04_Customer/photo2.png" alt="">
                     </div>
-                    <img class="Customer__slider-content-img" src="image/04_Customer/photo.png" alt="">
+                    <div style="transform: translateX(-1268px)" class="Customer__slider-content">
+                        <div class="Customer__slider-content-column">
+                            <img src="image/04_Customer/Gymstory.png" alt="Gymstory">
+                            <h3 class="Customer__slider-content-title">Kornix is the best digital agency i have ever
+                                seen!
+                                Highly Recommended!</h3>
+                            <p class="Customer__slider-content-desc">I recently hired <span
+                                    class="Customer__slider-content-desc_bold">Ideapeel</span> for a custom web
+                                development
+                                project and couldn't be happier
+                                with the results. The team was able to bring my unique ideas to life and create a
+                                website
+                                that
+                                truly stands out.</p>
+                            <p class="Customer__slider-content-heading">Diana Loreza</p>
+                            <p class="Customer__slider-content-text">Director of <span
+                                    class="Customer__slider-content-text_bold">Gymstory</span></p>
+                        </div>
+                        <img class="Customer__slider-content-img" src="image/04_Customer/photo.png" alt="">
+                    </div>
+                    <div style="transform: translateX(-1268px)" class="Customer__slider-content">
+                        <div class="Customer__slider-content-column">
+                            <img src="image/04_Customer/Gymstory.png" alt="Gymstory">
+                            <h3 class="Customer__slider-content-title">Kornix is the best digital agency i have ever
+                                seen!
+                                Highly Recommended!</h3>
+                            <p class="Customer__slider-content-desc">I recently hired <span
+                                    class="Customer__slider-content-desc_bold">Ideapeel</span> for a custom web
+                                development
+                                project and couldn't be happier
+                                with the results. The team was able to bring my unique ideas to life and create a
+                                website
+                                that
+                                truly stands out.</p>
+                            <p class="Customer__slider-content-heading">Diana Loreza</p>
+                            <p class="Customer__slider-content-text">Director of <span
+                                    class="Customer__slider-content-text_bold">Gymstory</span></p>
+                        </div>
+                        <img class="Customer__slider-content-img" src="image/04_Customer/photo3.png" alt="">
+                    </div>
                 </div>
+                <span class="Customer__before"></span><span class="Customer__after"></span>
             </div>
         </section>
         <section class="Pricing">
@@ -267,7 +313,8 @@
                     <div class="Pricing__containerOne-wrapper-inner">
                         <div class="Pricing__containerOne-wrapper-inner-row">
                             <h3 class="Pricing__containerOne-wrapper-inner-row-text">Standard</h3>
-                            <p class="Pricing__containerOne-wrapper-inner-row-button">Most Popular</p>
+                            <p style="transition: 1s" class="Pricing__containerOne-wrapper-inner-row-button">Most
+                                Popular</p>
                         </div>
                         <p class="Pricing__containerOne-wrapper-inner-desc">One request at a time. For companies who
                             need on-going design support.</p>
@@ -415,7 +462,8 @@
                 <p class="NewsArticles__container-subtitle">Providing answers to your questions</p>
                 <div class="NewsArticles__container-items">
                     <div class="NewsArticles__container-items-item">
-                        <h3 class="NewsArticles__container-items-item-title">Do you have specific princing plans to show?
+                        <h3 class="NewsArticles__container-items-item-title">Do you have specific princing plans to
+                            show?
                         </h3>
                         <span class="NewsArticles__container-items-item-icon"><img src="image/07_FAQ/Icon.png"
                                 alt="icon"></span>
@@ -481,7 +529,7 @@
         </section>
         <section class="Revolution">
             <h2 class="Revolution__title">Become part of the design revolution</h2>
-            <p class="Revolution__text">Jump on a membership and start 
+            <p class="Revolution__text">Jump on a membership and start
                 requesting designs right away!</p>
             <button class="Revolution__button">See Pricing</button>
         </section>
@@ -492,32 +540,47 @@
                 <h3 class="footer__contentOne-columnOne-title">
                     <a href="#">Kro<span class="footer__contentOne-columnOne-title_green">nix</span></a>
                 </h3>
-                <p class="footer__contentOne-columnOne-text">Kornix - the leading digital agency based in the UK, working with top-tier clients, from start-ups to enterprises.</p>
+                <p class="footer__contentOne-columnOne-text">Kornix - the leading digital agency based in the UK,
+                    working with top-tier clients, from start-ups to enterprises.</p>
             </div>
             <div class="footer__contentOne-columnTwo">
                 <p class="footer__contentOne-columnTwo-email">info@kronix.com</p>
                 <p class="footer__contentOne-columnTwo-phone">(001) 1231 3435</p>
                 <div class="footer__contentOne-columnTwo-icons">
-                    <span class="footer__contentOne-columnTwo-icons-Facebook"><img src="image/09_footer/Facebook.png" alt="Facebook"></span>
-                    <img src="image/09_footer/Instagram.png" alt="Instagram">
-                    <img src="image/09_footer/Linked.png" alt="LinkeIn">
-                    <img src="image/09_footer/Browser.png" alt="Browser">
+                    <a class="footer__contentOne-columnTwo-icons-Facebook" href="#"><span><img
+                                src="image/09_footer/Facebook.png" alt="Facebook"></span></a>
+                    <a href="#"><img src="image/09_footer/Instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="image/09_footer/Linked.png" alt="LinkeIn"></a>
+                    <a href="#"><img src="image/09_footer/Browser.png" alt="Browser"></a>
                 </div>
             </div>
         </div>
         <div class="footer__contentTwo">
             <ul class="footer__contentTwo-wrapper">
-                <li>Process</li>
-                <li>Benefits</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-                <li>FAQ</li>
+                <li><a id="footer__contentTwo-wrapperOne" href="#">Process</a></li>
+                <li><a id="footer__contentTwo-wrapperTwo" href="#">Benefits</a></li>
+                <li><a id="footer__contentTwo-wrapperThree" href="#">Services</a></li>
+                <li><a id="footer__contentTwo-wrapperFour" href="#">Portfolio</a></li>
+                <li><a id="footer__contentTwo-wrapperFive" href="#">FAQ</a></li>
             </ul>
             <p class="footer__contentTwo-text">© 2023 shantogfx - All Right Reserved</p>
         </div>
     </footer>
-
-
+    <section class="hidden">
+        <div class="BookACall__box">
+            <span class="BookACall__back">X</span>
+            <p class="BookACall__title">Fill in the form</p>
+            <form class="BookACall__wrapper" action="">
+                <div class="BookACall__wrapper-items">
+                    <input pattern="[\d+\-\s]{6,15}" required placeholder="Your phone number..." type="tel">
+                    <textarea maxlength="300" placeholder="Your message" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button class="BookACall__button">Send</button>
+            </form>
+            <p class="BookACall__text">*Our experts will contact you shortly</p>
+        </div>
+    </section>
+    <script src="Script/Script.js"></script>
 </body>
 
 </html>
